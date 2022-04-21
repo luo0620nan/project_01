@@ -1,0 +1,133 @@
+/* 消除所有块元素的边距和边框 */
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;	
+}
+/* 取消无序列表的默认项目样式 */
+ul li{
+	list-style: none;
+}
+/* 设置超链接样式 */
+a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+/* 设置整个页面的样式 */
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: black;
+	background: url(../images/bodybg.jpg);
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;/*超出边框部分隐藏 */
+}
+#onerow{
+	width: 1200px;
+	height: 352px;
+	margin-bottom: 15px;
+}
+.ppt1{
+	width: 440px;
+	height: 330px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-right: 18px;
+	background-color: #fff;
+	float: left;
+}
+.onerowR{
+	width: 720px;
+	height: 352px;
+	float: right;
+}
+.ppt2{
+	width: 720px;
+	height: 100px;
+}
+.imnews1{
+	width: 698px;
+	height: 238px;
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+	background-color: #fff;
+}
+.newsTitle{
+	width: 698px;
+	height:38px;
+}
+.newsContent{
+	width:698px ;
+	height: 198px;
+	margin-top: 2px;
+}
+.newsimg{
+	width: 240px;
+	height: 130px;
+	margin-top: 20px;
+	float: left;
+}
+.content{
+	width: 438px;
+	height: 196px;
+	float: right;
+	/* 如果float要设置left属性，就要写上float-left:20px; */
+}
+.newsTitle>h1{
+	width: 688px;
+	height: 37px;
+	padding-left: 10px;
+	border: 1px dashed #ccc;
+	font-size: 14px;
+	color: #fff;
+	line-height: 37px;
+	background: url(../images/head1.png) no-repeat left center;
+	position: relative;
+}
+.eng{
+	font-weight: normal;
+	margin-left: 50px;
+	color: rgb(115,115,115);
+}
+.more{
+	font-size: 12px;
+	color: rgb(115,115,115);
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.more:hover{
+	color: red;
+}
+.txt{
+	width: 240px;
+	height: 20px;
+	margin-top: 5px;
+	font-style: 12px;
+	color: #900;
+	text-align: center;
+	line-height: 20px;
+}
+.content ul{
+	width: 438px;
+	height: 196px;
+}
+.content ul li{
+	width: 423px;
+	height: 31px;
+	padding-left: 15px;
+	background: url(../images/icon.png) no-repeat left center;
+	line-height: 31px;
+	}
+.content ul li span{
+	float: right;
+	color: rgb(160,160,160);
+	font-size: 11px;
+}
